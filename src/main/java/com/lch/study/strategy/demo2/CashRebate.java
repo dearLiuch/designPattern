@@ -1,4 +1,4 @@
-package com.lch.study;
+package com.lch.study.strategy.demo2;
 
 public class CashRebate implements CashSuper {
      private double moneyRebate;

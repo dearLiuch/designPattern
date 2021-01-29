@@ -1,6 +1,7 @@
 package com.lch.study;
 
 
+import com.lch.study.strategy.demo2.*;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -19,7 +20,7 @@ public class StudyApplicationTests {
 		System.out.println(result);
 	}
 
-	// 策略
+	// 有不同的策略，正常的写法，一大堆策略业务逻辑封装，代码很长
 	@Test
 	public void testContext() {
 		CashContext context = null;
@@ -44,7 +45,7 @@ public class StudyApplicationTests {
 		System.out.println(money);
 	}
 
-	// 策略
+	// 策略模式，代码可读性增强
 	@Test
 	public void testCashContextStrategy() {
 		CashContextStrategy context = null;
@@ -57,6 +58,7 @@ public class StudyApplicationTests {
 
 
 	// 策略高级用法
+	// todo 学习反射知识点后再巩固此处
 	@Test
 	public void test() {
 		CashContextReflect context = null;

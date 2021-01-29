@@ -1,4 +1,4 @@
-package com.lch.study;
+package com.lch.study.strategy.demo2;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
