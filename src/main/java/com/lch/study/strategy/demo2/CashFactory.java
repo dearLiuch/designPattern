@@ -1,4 +1,8 @@
 package com.lch.study.strategy.demo2;
+
+/**
+ * 工厂结合策略模式
+ */
 public class CashFactory {
     public static CashSuper createCashAccept(String cashType){
         /**

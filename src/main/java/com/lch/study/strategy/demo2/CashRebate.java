@@ -1,5 +1,8 @@
 package com.lch.study.strategy.demo2;
 
+/**
+ * 策略二：打折
+ */
 public class CashRebate implements CashSuper {
      private double moneyRebate;
      

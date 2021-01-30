@@ -1,5 +1,8 @@
 package com.lch.study.strategy.demo2;
 
+/**
+ * 策略三：满减活动
+ */
 public class CashReturn implements CashSuper {
     /**
      * 应收金额

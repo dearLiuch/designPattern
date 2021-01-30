@@ -1,4 +1,4 @@
-package com.lch.study.factory.abstractfactory;
+package com.lch.study.factory.abstractfactory.demo1;
 
 /**
  * 具体产品类：香蕉

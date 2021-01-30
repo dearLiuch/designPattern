@@ -1,7 +1,7 @@
-package com.lch.study.factory.abstractfactory;
+package com.lch.study.factory.abstractfactory.demo1;
 
 /**
- * 抽象工厂类：制造早餐，包含水果和饮料
+ * 制造早餐的工厂，可生产水果、饮料
  */
 interface FoodFactory {
     // 制造水果

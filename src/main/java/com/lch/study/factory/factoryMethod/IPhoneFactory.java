@@ -1,7 +1,7 @@
 package com.lch.study.factory.factoryMethod;
 
 /**
- * 具体工厂：IPhone
+ * 具体工厂角色：创建具体产品对应的具体工厂；
  */
 public class IPhoneFactory implements Factory {
     @Override

@@ -1,4 +1,4 @@
-package com.lch.study.factory.abstractfactory;
+package com.lch.study.factory.abstractfactory.demo1;
 
 
 /**
